@@ -1,0 +1,21 @@
+{
+	"base extends": {
+		"prefix": "basetemp",
+		"body": [
+			"{% extends 'app/base.html' %}",
+			"{% block content %}",
+			"{% endblock %}",
+		],
+		"description": "base.htmlを読み込み、ブロックタグを記述"
+	}
+	// Example:
+	// "Print to console": {
+	// 	"scope": "javascript,typescript",
+	// 	"prefix": "log",
+	// 	"body": [
+	// 		"console.log('$1');",
+	// 		"$2"
+	// 	],
+	// 	"description": "Log output to console"
+	// }
+}
